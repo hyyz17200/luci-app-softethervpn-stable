@@ -11,8 +11,8 @@ LUCI_PKGARCH:=all
 
 PKG_NAME:=luci-app-softethervpn-stable
 PKG_VERSION:=1.0
-PKG_RELEASE:=5
+PKG_RELEASE:=
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
